@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirketler ve Günlük Kullanıcılar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- Link to styles.css -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Şirketler Tablosu</h1>
+        {{ table|safe }}
+
+        <h1 class="mt-5 mb-4">Günlük Kullanıcı Grafiği</h1>
+        <img src="{{ graph }}" alt="Daily Users Graph" class="img-fluid">
+    </div>
+</body>
+</html>
