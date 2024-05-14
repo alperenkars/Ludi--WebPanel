@@ -16,3 +16,7 @@ Bu proje, Ludi iş simülasyonu platformu vaka çalışması için yapılmışt�
 2. Unix epoch timestamp formatında verildiğini düşündüğüm zamanları çeşitli şekillerde YYYY-AA-GG formatına çevirmeyi denedim, veriler rastgele olduğu için sanıyorum, en makul tarihleri (yaklaşık 2100 yılı civarları) küsuratı belirttiğini düşündüğüm noktayı kaldırıp ilk 10 haneyi çevirerek elde edebildim. Dolayısıyla projede bu formülle elde edilen tarihler kullanıldı.
 3. Üst tablodaki şirket sıralaması için özel bir tarif verilmediğinden ötürü sıralama ID numaralarına göre yapıldı.
 4. Python kodu içinde ayrıca açıklamalar yer almakta, CSS ve HTML dosyaları kısa ve Python dosyasına göre daha basit yapıda oldukları için onlara yorum eklenmedi.
+5. Koddaki grafiğin verileri değiştirilerek kodun birden fazla defa çalıştırıldığı durumda, grafiğin sitede de güncellenmesi için kullanılan tarayıcının önbelleğinin temizlenmesi gerekir.
+
+
+    ***Alperen Kars***
